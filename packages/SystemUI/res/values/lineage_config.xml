@@ -31,4 +31,13 @@
          * Right -> 53 (Gravity.TOP | Gravity.RIGHT)
     -->
     <integer name="hardware_ui_align">53</integer>
+
+    <!-- Volume Dialog alignment:
+         Use one of the following values based on the volume button position:
+         * Right -> 21 (Gravity.CENTER_HORIZONTAL | Gravity.RIGHT)
+         * Top Right -> 53 (Gravity.TOP | Gravity.RIGHT)
+         * Left -> 19 (Gravity.CENTER_HORIZONTAL | Gravity.LEFT)
+         * Top Left -> 51 (Gravity.TOP | Gravity.LEFT)
+    -->
+    <integer name="volume_dialog_align">21</integer>
 </resources>
